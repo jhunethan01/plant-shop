@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Header from '../components/header';
+import Image_box from '../components/image_box';
 
 export default function Home() {
   return (
@@ -16,56 +17,12 @@ export default function Home() {
         <Header />
         <section className={styles.body__container}>
           <div className={styles.container_row}>
-            <div className={styles.box}>
-              <Image
-                src='/images/green foliage.webp'
-                className={styles.background_image}
-                width="0"
-                height="0"
-                sizes="100vw"
-              />
-              <h2 className={styles.foreground}>
-                The Plant Corner
-              </h2>
-            </div>
+            <Image_box image_src="/images/green foliage.webp" title="The Plant Corner" />
           </div>
           <div className={styles.container_row}>
-            <div className={styles.box}>
-              <Image
-                src='/images/roses.jpeg'
-                className={styles.background_image}
-                width="0"
-                height="0"
-                sizes="100vw"
-              />
-              <h2 className={styles.foreground}>
-                Flowers
-              </h2>
-            </div>
-            <div className={styles.box}>
-              <Image
-                src='/images/succulent.jpg'
-                className={styles.background_image}
-                width="0"
-                height="0"
-                sizes="100vw"
-              />
-              <h2 className={styles.foreground}>
-                Succulents
-              </h2>
-            </div>
-            <div className={styles.box}>
-              <Image
-                src='/images/plant care.jpg'
-                className={styles.background_image}
-                width="0"
-                height="0"
-                sizes="100vw"
-              />
-              <h2 className={styles.foreground}>
-                Plant Care
-              </h2>
-            </div>
+            <Image_box image_src="/images/roses.jpeg" title="Flowers" />
+            <Image_box image_src="/images/succulent.jpg" title="Succulents" />
+            <Image_box image_src="/images/plant care.jpg" title="Plant Care" />
           </div>
         </section>
       </main>
