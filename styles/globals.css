@@ -7,9 +7,12 @@ body {
   font-family: 'Ubuntu', sans-serif;
   line-height: 1.6;
   font-size: 18px;
+
+  background-color: #dfffdf;
 }
 
 * {
+  transition: all 0.3s;
   box-sizing: border-box;
 }
 

@@ -1,0 +1,36 @@
+.footer {
+    background-color: #1C301E;
+    color: white;
+
+    padding: 50px 20px 100px 20px;
+}
+
+.list {
+    list-style: none;
+}
+
+.footer_trademark {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container_row {
+    display: flex;
+
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.container_row>h2 {
+    text-align: center;
+    display: block;
+    margin: auto auto 50px auto;
+}
+
+.link{
+    cursor: pointer;
+}
+
+.link:hover{
+    text-decoration: underline;
+}

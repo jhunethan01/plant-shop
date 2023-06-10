@@ -16,6 +16,18 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+
+  cursor: pointer;
+  
+  transition: all 0.3s;
+}
+
+.box:hover img{
+  opacity: 0;
+}
+
+.box:hover{
+  background-color: #1C301E;
 }
 
 .background_image{
@@ -38,4 +50,16 @@
 
   gap: 30px;
   padding: 0 20px;
+}
+
+.container_row>h2{
+  text-align: center;
+  display: block;
+  margin: auto auto 50px auto;
+}
+
+.container_label{
+  border-bottom: 1px solid black;
+
+  width: 100%;
 }
