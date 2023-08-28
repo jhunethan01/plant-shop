@@ -1,0 +1,11 @@
+.banner_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+
+    padding: 10px 0;
+}

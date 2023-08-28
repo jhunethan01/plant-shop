@@ -1,10 +1,9 @@
-import Link from 'next/link';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
-export default function Image_box({image_src, title}) {
+export default function Image_box({image_src, title, link = false}) {
     return (
-        <div className={styles.box}>
+        <div className={`${link ? '' : styles.unclickable} ${styles.box}`}>
             <Image
                 src={image_src}
                 className={styles.background_image}
