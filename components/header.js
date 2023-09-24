@@ -10,11 +10,6 @@ export default function Header() {
                     The Plant Corner
             </h2>
                 </Link>
-            <nav>
-                <Link href="shop">Shop</Link>
-                <Link href="about">About Us</Link>
-                <Link href="contact">Contact</Link>
-            </nav>
             <div className={styles.search}>
                 <input type="text" name="search" placeholder='Search' />
                 <Image

@@ -6,6 +6,8 @@ import Header from '../components/header';
 import Image_box from '../components/image_box';
 import Footer from '../components/footer';
 import Banner from '../components/banner';
+import Navigation from '../components/navigation';
+import Splashscreen from '../components/splashscreen';
 
 export default function Home() {
   return (
@@ -17,11 +19,10 @@ export default function Home() {
 
       <main>
         <Header />
+        <Navigation />
         <Banner text='20% off plants, bulbs & seeds* | Shop now' />
+          <Splashscreen />
         <section className={styles.body__container}>
-          <div className={styles.container_row}>
-            <Image_box image_src="/images/green foliage.webp" title="The Plant Corner"/>
-          </div>
           <div className={styles.container_row}>
             <h2 className={styles.container_label}>
               Personalised Picks
