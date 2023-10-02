@@ -15,7 +15,7 @@ export default function Splashscreen() {
         </div>
         <div className={styles.background}>
         <Image
-                src='/images/green foliage.webp'
+                src='/images/green_foliage.webp'
                 className={styles.background_image}
                 width="0"
                 height="0"
